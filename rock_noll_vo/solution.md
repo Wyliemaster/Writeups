@@ -6,7 +6,7 @@ md5: `1473313fd44a55aaa5eb7158d8c3e519`
 
 ## The Virtual Machine
 
-The first thing that's clearly noticable is that `main` is a C Array filled with bytes of data.
+The first thing that's clearly noticable is that `main` contains a C Array filled with bytes of data.
 
 ![main](/rock_noll_vo/images/main.PNG)
 
