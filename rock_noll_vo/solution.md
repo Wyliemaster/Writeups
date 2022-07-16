@@ -36,8 +36,7 @@ struct VM_Struct
   uint64_t vm_data_size;            // how many bytes in the bytecode array
   uint64_t *vm_stack;               // virtual stack
   uint64_t *vm_unknown_pointer;     // unknown pointer found in the struct destructor
-  uint64_t vm_registers[7];         // 7 virtual registers
-  uint64_t PAD01;
+  uint64_t vm_registers[8];         // 8 virtual registers
   uint64_t vm_stack_ptr;            // stack pointer
   uint64_t vm_stack_ptr_max;        // Max value the stack pointer could point to
   uint64_t vm_instruction_pointer;  // which virtual instruction is being ran
